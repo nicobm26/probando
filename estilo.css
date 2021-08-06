@@ -9,19 +9,36 @@ html{
 body{
   /* background-color: #333; */
 }
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
 .header{
   height: 15vh;
-  background-color: lawngreen;
+  width: 100vw;
+  background-color: #181733;
+  display: flex;
 }
-.logo{
-  height: 8rem;
-  padding-left: 2.9rem;
+.header__figura{
+  width: 20%;
+  height: 100%; /*el 100% de la altura de su contenedor padre (header)*/
 }
 .nav{
-  display: inline-block;
-  /* text-decoration: none; */
-  padding-left: 20rem;
+  width: 80%;
+  height: 100%;
 }
+.nav__lista{
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+}
+.lista_tema{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 3rem;
+}
+
 .main{
   height: 70vh;
   /* background-color: lightcoral; */
@@ -34,17 +51,18 @@ body{
 }
 .contenido{
   width: 90vw;
-  background-color: aquamarine;
+  background-color: #6f2b59;
+  font-size: 4rem;
 
 }
 
 .footer{
   height: 15vh;
-  background-color: rgb(4, 0, 252);
+  background-color:#181733;
 }
 
 
 .imagen{
-  margin: 0.7rem;
+  /* margin: 0.7rem; */
   height: 12rem;
 }
