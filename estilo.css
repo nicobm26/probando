@@ -1,0 +1,50 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  /* background-color: #333; */
+}
+.header{
+  height: 15vh;
+  background-color: lawngreen;
+}
+.logo{
+  height: 8rem;
+  padding-left: 2.9rem;
+}
+.nav{
+  display: inline-block;
+  /* text-decoration: none; */
+  padding-left: 20rem;
+}
+.main{
+  height: 70vh;
+  /* background-color: lightcoral; */
+  display: flex;
+  top: 35vh;
+}
+.contenedor-fotos{
+  background-color: rgb(240, 215, 250);
+  width: 10vw;
+}
+.contenido{
+  width: 90vw;
+  background-color: aquamarine;
+
+}
+
+.footer{
+  height: 15vh;
+  background-color: rgb(4, 0, 252);
+}
+
+
+.imagen{
+  margin: 0.7rem;
+  height: 12rem;
+}
